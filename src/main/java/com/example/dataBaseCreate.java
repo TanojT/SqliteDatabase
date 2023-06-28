@@ -12,7 +12,7 @@ public class dataBaseCreate {
             System.out.println("Opened Database Successfully");
 
             stm=connect.createStatement();
-            String sql = "CREATE TABLE EMPLOYEE"+
+            String sql = "CREATE TABLE EMPLOYEES"+
                             "(ID INT PRIMARY KEY     NOT NULL,"+
                             "NAME           TEXT    NOT NULL,"+
                             "AGE            INT     NOT NULL,"+

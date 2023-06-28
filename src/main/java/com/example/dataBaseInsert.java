@@ -13,16 +13,16 @@ public class dataBaseInsert {
             connect.setAutoCommit(false);
             System.out.println("Opened Database !");
             stm= connect.createStatement();
-            String sql ="INSERT INTO EMPLOYEE(ID,NAME,AGE,[JOB],SALARY)"+
+            String sql ="INSERT INTO EMPLOYEES(ID,NAME,AGE,[JOB],SALARY)"+
                         "vALUES(1002,'Pandu',25,'DALLAS',40000.00)";
             stm.executeUpdate(sql);
-            sql ="INSERT INTO EMPLOYEE(ID,NAME,AGE,[JOB],SALARY)"+
+            sql ="INSERT INTO EMPLOYEES(ID,NAME,AGE,[JOB],SALARY)"+
                         "vALUES(1003,'Subbu',20,'Kansas',45000.00)";
             stm.executeUpdate(sql);
-            sql ="INSERT INTO EMPLOYEE(ID,NAME,AGE,[JOB],SALARY)"+
+            sql ="INSERT INTO EMPLOYEES(ID,NAME,AGE,[JOB],SALARY)"+
                         "vALUES(1004,'pranathi',28,'DALLAS',20000.00)";
             stm.executeUpdate(sql);
-            sql ="INSERT INTO EMPLOYEE(ID,NAME,AGE,[JOB],SALARY)"+
+            sql ="INSERT INTO EMPLOYEES(ID,NAME,AGE,[JOB],SALARY)"+
                         "vALUES(1005,'priyanka',27,'Austin',35000.00)";
             stm.executeUpdate(sql);
             stm.close();
